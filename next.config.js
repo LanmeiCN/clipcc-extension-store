@@ -6,10 +6,6 @@ module.exports = {
     return webpackConfig;
   },
   reactStrictMode: true,
-  locales: {
-    locales: ['zh-CN', 'zh-TW', 'en-US'],
-    defaultLocale: 'zh-CN'
-  }
 }
 
 function getBasePath() {
